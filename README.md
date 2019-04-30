@@ -15,6 +15,7 @@ Connect laptop to an ethernet cable (with internet access, idiot) <br/>
 Open a terminal and run: <br/>
 
     sudo apt install git dkms build-essential
+    cd /tmp
     git clone https://github.com/jeremyb31/idea-laptop.git
     sudo dkms add ./idea-laptop
     sudo dkms install ideapad-laptop/*.*
